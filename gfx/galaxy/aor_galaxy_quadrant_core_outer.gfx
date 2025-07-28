@@ -1,0 +1,9 @@
+# [4.0] Immersive Beautiful Universe + Astronomical Objects Reborn + L-Cluster by Flow
+
+objectTypes = {
+	pdxparticle = {
+		name = "aor_galaxy_quadrant_core_outer"
+		type = "aor_galaxy_quadrant_core_outer"
+		scale = 1.000
+	}
+}

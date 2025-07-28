@@ -1,0 +1,44 @@
+# [4.0] Immersive Beautiful Universe + Astronomical Objects Reborn + L-Cluster by Flow
+
+particle={
+	name="aor_galaxy_quadrant_core_outer"
+
+	subsystem={
+		name="distance_core_outer"
+		max_amount=1
+		slave_particles=0
+		sort="depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		spritesheet_animation=no
+		local_space=yes
+		billboard=no
+		hide=no
+		texture={
+			file="gfx/galaxy/galaxy_quadrant_distances_outer.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			x=175.000
+			y=225.000
+			z=255.000
+			alpha=16.000
+		}
+		position={
+			x=0.000
+			y=0.100
+			z=0.000
+		}
+		start=0.000
+		duration=-1.000
+		life=999.000
+		emission=1.000
+		size=24.000
+		particle_pitch=90.000
+		rotation=0.000
+	}
+
+}

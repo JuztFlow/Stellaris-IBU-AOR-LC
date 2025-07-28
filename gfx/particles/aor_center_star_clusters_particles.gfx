@@ -1,0 +1,11 @@
+# Immersive Galaxy - Astronomical Objects by Dwaine
+# Astronomical Objects Reborn by Alt
+# [4.0] Immersive Beautiful Universe + Astronomical Objects Reborn + L-Cluster by Flow
+
+objectTypes = {
+	pdxparticle = {
+		name = "aor_center_star_clusters_particles"
+		type = "aor_center_star_clusters_particles"
+		scale = 1.0
+	}
+}

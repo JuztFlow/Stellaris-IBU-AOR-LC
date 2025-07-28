@@ -1,0 +1,43 @@
+# Immersive Galaxy - Astronomical Objects by Dwaine
+# Astronomical Objects Reborn by Alt
+# [4.0] Immersive Beautiful Universe + Astronomical Objects Reborn + L-Cluster by Flow
+
+particle={
+	name="aor_pillar_02_particles"
+
+	subsystem={
+		name="aor_pillar_02_particles"
+		max_amount=1
+		slave_particles=0
+		sort = "depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=no
+		hide=no
+		texture={
+			file="gfx/particles/aor_pillar_02.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			alpha=128.000
+		}
+		position={
+			x=18.000
+			y=-0.750
+			z=-22.000
+		}
+		start=0.000
+		duration=-1.000
+		life=999.000
+		emission=1.000
+		size=7.500
+		rotation=170.000
+		particle_pitch=110.000
+		rotation_speed=0.000
+	}
+
+}

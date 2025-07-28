@@ -1,0 +1,60 @@
+[h1][4.0] Immersive Beautiful Universe + Astronomical Objects Reborn + L-Cluster[/h1]
+
+This is a compatibility patch that allows you to seamlessly use [b]Immersive Beautiful Universe (IBU)[/b] alongside a [u]reimagined[/u] version of [b]Astronomical Objects Reborn (AOR)[/b] and its [b]L-Cluster Addon[/b].
+
+[hr][/hr]
+My mod combines the stunning galaxy visuals and quadrants from IBU with the unique astronomical features introduced by AOR, which intern is based on the original mod "Immersive Galaxy - Astronomical Objects" from 2018, ensuring a fully immersive and visually enhanced galaxy experience.
+
+[i][u]Additionally, this mod also removes the non-English writing on the quadrant captions that IBU introduced![/u][/i]
+
+Furthermore, I redid a lot of the work done in AOR:
+[olist]
+[*] Some unused assets from AOR and some removed assets from the original 2018 mod have been reintroduced as new astronomical objects.
+[*] A few assets have been reworked to remove some really rough edges in the texture files.
+[*] Pretty much all astronomical objects have been repositioned and made bigger to use the space in the galaxy a bit better.
+[*] Most astronomical objects are layered now which creates a pseudo 3D effect.
+[*] Similarly, a lot more astronomical objects than in the original AOR mod are animated now and will slowly spin.
+[*] The whole file struture of the mod has been reworked to make any adjustments way easier to do, so, if you do not like something about any of the astronomical objects, they now all have their very own file which you can go and adjust to your liking. No need to search in one big file!
+[/olist]
+
+[hr][/hr]
+[h2]❗ Requirements[/h2]
+It is [u]strongly[/u] recommended that you also have the following mod installed:
+[list]
+[*][url=https://steamcommunity.com/sharedfiles/filedetails/?id=1802506791]! Immersive Beautiful Universe ![/url]
+[/list]
+
+[i][u]However, my mod can also be used standalone, albeit that one quadrant circle in the very center of the galaxy close to the core will remain, but even without quadrants, it doesn't look that bad![/u][/i]
+
+❗[b][u] Important: You do NOT need the Astronomical Objects Reborn mod, and you also do NOT need the Immersive Galaxy - Astronomical Objects mod! [/u][/b]
+
+[hr][/hr]
+[h2]📑 Load Order[/h2]
+To ensure that everything works correctly, you [u]must[/u] load the mods in this order:
+[olist]
+[*] [b]! Immersive Beautiful Universe ![/b]
+[*] [b][4.0] Immersive Beautiful Universe + Astronomical Objects Reborn + L-Cluster[/b]
+[/olist]
+
+[hr][/hr]
+[h2]🔧 Compatibility[/h2]
+ 
+✅ Fully compatible with [b]Achievements[/b], whether used standalone or together with IBU.
+
+✅ The mod is also fully compatible with [b]save games[/b]. You can enable or disable it at any time without any effect. It works seamlessly with existing save files, meaning it even can be activated after your playthrough already started!
+
+✅ Compatible with [b]all other mods[/b], unless they specifically modify or overwrite the entity:
+[code]name = "default_galaxy_center_entity"[/code]
+
+[i][u]Note:[/u] Some other galaxy and quadrant mods unfortunately (need to) do this, so be careful![/i]
+
+[hr][/hr]
+[h2]📝 Credits[/h2]
+Special thanks to the original authors for their outstanding work:
+[list]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2407436476] ! Immersive Beautiful Universe ! by Kasako[/url]
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3256337211]Astronomical Objects Reborn by Alt[/url]  
+[*] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=1445668908]Immersive Galaxy - Astronomical Objects by Dwaine[/url]  
+[/list]
+
+If you want to help out and update this mod in case it ever is outdated, check out the [url=https://github.com/JuztFlow/Stellaris-IBU-AOR-LC] GitHub Repository[/url] of this mod.

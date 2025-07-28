@@ -1,0 +1,156 @@
+# Immersive Galaxy - Astronomical Objects by Dwaine
+# Astronomical Objects Reborn by Alt
+# [4.0] Immersive Beautiful Universe + Astronomical Objects Reborn + L-Cluster by Flow
+
+particle={
+	name="aor_supernova_05_particles"
+	
+	subsystem={
+		name="aor_supernova_05_particles_00"
+		max_amount=1
+		slave_particles=0
+		sort = "depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=no
+		hide=no
+		texture={
+			file="gfx/particles/aor_supernova_05_00.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			alpha=128.000
+		}
+		position={
+			x=-16.000
+			y=-0.500
+			z=-55.000
+		}
+		start=0.000
+		duration=-1.000
+		life=999.000
+		emission=1.000
+		size=1.750
+		rotation=90.000
+		particle_pitch=110.000
+		particle_yaw=0.000
+		# Use a prime number to avoid synchronized rotation with other particles
+		rotation_speed=0.809
+	}
+	
+	subsystem={
+		name="aor_supernova_05_particles_01"
+		max_amount=1
+		slave_particles=0
+		sort = "depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=no
+		hide=no
+		texture={
+			file="gfx/particles/aor_supernova_05_01.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			alpha=64.000
+		}
+		position={
+			x=-16.000
+			y=-0.550
+			z=-55.000
+		}
+		start=0.000
+		duration=-1.000
+		life=999.000
+		emission=1.000
+		size=2.500
+		rotation=-45.000
+		particle_pitch=110.000
+		particle_yaw=-0.000
+		# Use a prime number to avoid synchronized rotation with other particles
+		rotation_speed=0.607
+	}
+	
+	subsystem={
+		name="aor_supernova_05_particles_02"
+		max_amount=1
+		slave_particles=0
+		sort = "depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=no
+		hide=no
+		texture={
+			file="gfx/particles/aor_supernova_05_02.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			alpha=48.000
+		}
+		position={
+			x=-16.000
+			y=-0.600
+			z=-55.000
+		}
+		start=0.000
+		duration=-1.000
+		life=999.000
+		emission=1.000
+		size=3.000
+		rotation=240.000
+		particle_pitch=110.000
+		particle_yaw=0.000
+		# Use a prime number to avoid synchronized rotation with other particles
+		rotation_speed=0.409
+	}
+
+	subsystem={
+		name="aor_supernova_05_particles_03"
+		max_amount=1
+		slave_particles=0
+		sort = "depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=no
+		hide=no
+		texture={
+			file="gfx/particles/aor_supernova_05_03.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			alpha=48.000
+		}
+		position={
+			x=-16.000
+			y=-0.650
+			z=-55.000
+		}
+		start=0.000
+		duration=-1.000
+		life=999.000
+		emission=1.000
+		size=3.500
+		rotation=120.000
+		particle_pitch=110.000
+		particle_yaw=0.000
+		# Use a prime number to avoid synchronized rotation with other particles
+		rotation_speed=0.229
+	}
+
+}

@@ -1,0 +1,194 @@
+# Immersive Galaxy - Astronomical Objects by Dwaine
+# Astronomical Objects Reborn by Alt
+# [4.0] Immersive Beautiful Universe + Astronomical Objects Reborn + L-Cluster by Flow
+
+particle={
+	name="aor_companion_galaxy_particles"
+	
+	subsystem={
+		name="aor_companion_galaxy_01"
+		max_amount=1
+		slave_particles=0
+		sort = "depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=no
+		hide=no
+		texture={
+			file="gfx/particles/aor_companion_galaxy_01.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			alpha=144.000
+		}
+		position={
+			x=-92.000
+			y=-15.000
+			z=68.000
+		}
+		start=0.000
+		duration=-1.000
+		life=999.000
+		emission=1.000
+		size=150.000
+		rotation=90.000
+		particle_pitch=-60.000
+		particle_yaw=16.000
+		# Use a prime number to avoid synchronized rotation with other particles
+		rotation_speed=-0.277
+	}
+		
+	subsystem={
+		name="aor_companion_galaxy_02"
+		max_amount=1
+		slave_particles=0
+		sort = "depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=no
+		hide=no
+		texture={
+			file="gfx/particles/aor_companion_galaxy_02.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			alpha=144.000
+		}
+		position={
+			x=10.000
+			y=-10.000
+			z=-78.000
+		}
+		start=0.000
+		duration=-1.000
+		life=999.000
+		emission=1.000
+		size=55.000
+		rotation=-40.000
+		particle_pitch=-70.000
+		particle_yaw=-11.000
+		# Use a prime number to avoid synchronized rotation with other particles
+		rotation_speed=0.331
+
+	}
+
+	subsystem={
+		name="aor_companion_galaxy_03"
+		max_amount=1
+		slave_particles=0
+		sort = "depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=no
+		hide=no
+		texture={
+			file="gfx/particles/aor_companion_galaxy_03.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			alpha=140.000
+		}
+		position={
+			x=12.000
+			y=-18.000
+			z=85.000
+		}
+		start=0.000
+		duration=-1.000
+		life=999.000
+		emission=1.000
+		size=14.000
+		rotation=180.000
+		particle_pitch=-45.000
+		particle_yaw=20.000
+		# Use a prime number to avoid synchronized rotation with other particles
+		rotation_speed=0.367
+	}
+
+	subsystem={
+		name="aor_companion_galaxy_dwarf_inner"
+		max_amount=1
+		slave_particles=0
+		sort = "depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=no
+		hide=no
+		texture={
+			file="gfx/particles/aor_companion_galaxy_dwarf_inner.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			alpha=64.000
+		}
+		position={
+			x=55.000
+			y=-7.500
+			z=48.000
+		}
+		start=0.000
+		duration=-1.000
+		life=999.000
+		emission=1.000
+		size=23.000
+		rotation=0.000
+		particle_pitch=-75.000
+		particle_yaw=14.000
+		# Use a prime number to avoid synchronized rotation with other particles
+		rotation_speed=-0.389
+	}
+
+	subsystem={
+		name="aor_companion_galaxy_dwarf_outer"
+		max_amount=1
+		slave_particles=0
+		sort = "depth"
+		emitter_type="point"
+		invert=no
+		trail=no
+		local_space=yes
+		billboard=no
+		hide=no
+		texture={
+			file="gfx/particles/aor_companion_galaxy_dwarf_outer.dds"
+			x=1
+			y=1
+			shader="ParticleAdditive"
+		}
+		color={
+			alpha=64.000
+		}
+		position={
+			x=55.000
+			y=-8.000
+			z=48.000
+		}
+		start=0.000
+		duration=-1.000
+		life=999.000
+		emission=1.000
+		size=25.000
+		rotation=0.000
+		particle_pitch=-75.000
+		particle_yaw=14.000
+		# Use a prime number to avoid synchronized rotation with other particles
+		rotation_speed=-0.317
+	}
+	
+}

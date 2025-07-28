@@ -1,0 +1,135 @@
+# ! Immersive Beautiful Universe ! by Kasako
+# [4.0] Immersive Beautiful Universe + Astronomical Objects Reborn + L-Cluster by Flow
+
+entity = {
+
+	# Default Galaxy Center Entity: Must be this name for everything to work properly!
+	name = "default_galaxy_center_entity"
+
+	cull_radius = 2000
+	default_state = "idle"
+
+	# AOR
+	locator = { name = "core_outer" position = { 0 -0.15 0 } }
+
+	# IBU
+	locator = { name = "core_inner" position = { 0 -0.15 0 } }
+	locator = { name = "line_1" position = { 0 -0.15 0 } rotation = { 0 0 0 } }
+	locator = { name = "line_2" position = { 0 -0.15 0 } rotation = { 90 0 0 } }
+	locator = { name = "line_3" position = { 0 -0.15 0 } rotation = { 180 0 0 } }
+	locator = { name = "line_4" position = { 0 -0.15 0 } rotation = { 270 0 0 } }
+	
+	state = {
+		name = "idle" state_time = 30 looping = yes
+
+		# AOR
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_companion_galaxy_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_center_star_clusters_particles"  }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_lcluster_particles"  }
+
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_blue_00_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_blue_01_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_blue_02_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_blue_03_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_blue_04_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_blue_05_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_blue_06_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_blue_07_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_blue_08_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_blue_09_particles" }
+
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_red_00_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_red_01_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_red_02_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_red_03_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_red_04_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_red_05_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_red_06_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_red_07_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_red_08_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_red_09_particles" }
+
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_other_00_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_other_01_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_other_02_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_other_03_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_other_04_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_nebula_other_05_particles" }
+
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_supernova_00_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_supernova_01_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_supernova_02_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_supernova_03_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_supernova_04_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_supernova_05_particles" }
+
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_pillar_00_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_pillar_01_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_pillar_02_particles" }
+
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_fissure_00_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_fissure_01_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_fissure_02_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_fissure_03_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_fissure_04_particles" }
+		start_event = { time = 0 trigger_once = yes keep_particle = yes particle = "aor_fissure_05_particles" }
+
+		event = { trigger_once = yes keep_particle = yes node = core_outer particle = "aor_galaxy_quadrant_core_outer" }
+
+		# IBU
+		event = { particle = "IBS_galaxy_CORE_main" trigger_once = yes keep_particle = yes }
+		event = { particle = "IBS_galaxy_CORE_dust" trigger_once = yes keep_particle = yes }
+		event = { particle = "IBS_galaxy_CORE_stars" trigger_once = yes keep_particle = yes }
+		event = { particle = "IBS_galaxy_CORE_blink" trigger_once = yes keep_particle = yes }
+		
+		event = { particle = "IBS_galaxy_QUADRANT_core" trigger_once = yes keep_particle = yes node = core_inner }
+		event = { particle = "IBS_galaxy_QUADRANT_line" trigger_once = yes keep_particle = yes node = line_1 }
+		event = { particle = "IBS_galaxy_QUADRANT_line" trigger_once = yes keep_particle = yes node = line_2 }
+		event = { particle = "IBS_galaxy_QUADRANT_line" trigger_once = yes keep_particle = yes node = line_3 }
+		event = { particle = "IBS_galaxy_QUADRANT_line" trigger_once = yes keep_particle = yes node = line_4 }
+
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_patch1" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c1a1_c1a2" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c1a3_c1a4" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c1a5_c1a6" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c1a7_c1a8" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c2a1_c2a2" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c2a3_c2a4" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c2a5_c2a6" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c2a7" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c2a8" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c2a9_c2a10" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c2a11_c2a12" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c3a1_a2_a3" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c3a3_a4_a5" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c3a6_a7_a8" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c3a8_a9_a10" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c3a11_a12_a13" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c3a14_a16" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c4_a1a2" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c4_a3a4" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c4_a4a5a6" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c4_a6a7" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c4_a8a9a10" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c4_a11a12a13a14" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c4_a14" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c4_a15a16a17" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c4_a17a18a19" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c4_a19a20" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c5_a1a2a3" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c5_a3a4" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c5_a4a5" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c5_a6a7" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c5_a7a8" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c5_a8a9a10" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c5_a10a11" }
+		event = { trigger_once = yes keep_particle = yes node = star particle = "IBS_galaxy_STAR_lay1_c5_a11a12a13" }
+
+		# Both
+		event = { trigger_once = yes sound = { soundeffect = "amb_galaxy_map_01" } }
+		event = { trigger_once = yes sound = { soundeffect = "amb_galaxy_map_02" } }
+	}
+
+	playback_rate = 1
+	scale = 15
+}
